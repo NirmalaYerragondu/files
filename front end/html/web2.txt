@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<title>my web page</title>
+</head>
+<body>
+<h1>hello world</h1>
+<h2>hello world</h2>
+
+
+<img src="D:\html\PLANT2.jpg" height="100px" width="200px">
+<audio src="https://naasongs.co/dasara-songs-2022.html" controls>
+</body>
+</html>

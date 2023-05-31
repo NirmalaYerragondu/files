@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>calculator</title>
+    </head>
+    <body>
+        <label>num1</label><br>
+        <input type="text" id="one"><br>
+        <label>num2</label><br>
+        <input type="text" id="two"><br>
+        <button onclick="add()">add</button>
+        <button onclick="sub()">sub</button>
+        <button onclick="mul()">mul</button>
+        <button onclick="div()">div</button><br>
+        <label>result</label><br>
+        <input type="text" id="three">
+    </body>
+    <script>
+        function add(){
+          var  a=document.getElementById("one").value
+          var  b=document.getElementById("two").value
+             var c=number(a)+number(b)
+            document.getElementById("three").value=c
+        }
+        function sub(){
+             var a=document.getElementById("one").value
+             var b=document.getElementById("two").value
+             var c=number(a)-number(b)
+            document.getElementById("three").value=c
+        }
+        function mul(){
+            var a=document.getElementById("one").value
+            var b=document.getElementById("two").value
+            var c=number(a)*number(b)
+            document.getElementById("three").value=c
+        }
+        function div(){
+        var  a=document.getElementById("one").value
+        var  b=document.getElementById("two").value
+        var  c=number(a)/number(b)
+            document.getElementById("three").value=c
+        }
+    </script>
+</html>

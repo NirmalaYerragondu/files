@@ -1,0 +1,1 @@
+SELECT * FROM batch2.tata_ipl;

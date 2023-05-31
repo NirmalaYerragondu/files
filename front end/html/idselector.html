@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>ids</title>
+    </head>
+    <body>
+        <h1 id="one" onmouseover="oh()" style="border:solid;border-color:aqua;background-color:blue">hii frnds...</h1>
+        <input id="two" type="text">
+        <button onmouseover="oh()">click</button>
+    </body>
+    <script>
+        function oh(){
+            var c=document.getElementById("one").innerHTML
+           document.getElementById("two").value=c
+           // document.write(c)
+        }
+
+    </script></html>
